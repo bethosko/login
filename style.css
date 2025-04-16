@@ -1,14 +1,40 @@
 body {
-    background-color: hsl(131, 94%, 32%);
-    color: white;
-    font-family: "Permanent Marker";
-    background-image: radial-gradient (45deg, rgb(0, 249, 79), rgb(0, 102, 255));
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;  
+    background-image:url(folha.jpg);
+    color: rgb(9, 0, 0);
+    font-family: "Sour Gummy";
+ 
 .login {
-    background-color: rgba(0, 0, 0, 0.9);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
+    display:flex;
+    justify-content: center;
+    align-itens: center;
+    background-color: rgb(0, 0, 0);
     padding: 90px;
+    border-radius: 25px;
+    color: white;
 }
+.text {
+    padding: 10px;
+    border: 1mm;
+    outline: 1mm;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button {
+background-color: blue;
+border-radius: 8px;
+padding: 15px;
+color: white;
+font-size: 20px;
+}
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
 } 
